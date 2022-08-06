@@ -33,7 +33,7 @@ There's a removeHeader() method available. Just pass it the name of the header y
 ```JavaScript
 myAPIobj.removeHeader("API-Key");
 ```
-**2.  How do I remove a URL Parameter?
+**2.  How do I remove a URL Parameter?**
 
 There's also a removeParam() method. Just pass it the name of the parameter you wish to remove.
 
