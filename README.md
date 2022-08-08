@@ -40,3 +40,15 @@ There's also a removeParam() method. Just pass it the name of the parameter you 
 ```JavaScript
 myAPIobj.removeParam("year");
 ```
+**3.  What if the API I'm calling has multiple endpoints (e.g. REST, etc.)?**
+
+There is a setPath() method which lets you specify an endpoint, if needed. Invoking it more than once replaces the previous value with the later one.
+
+```JavaScript
+// sets the URL pathname value to "people"
+myAPIobj.setPath("people");
+
+// replaces the URL pathname value to "places"
+myAPIobj.setPath("places");
+
+```
